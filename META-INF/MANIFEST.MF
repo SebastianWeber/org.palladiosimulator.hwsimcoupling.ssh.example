@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Example
+Bundle-SymbolicName: org.palladiosimulator.hwsimcoupling.ssh.example
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: org.palladiosimulator.hwsimcoupling.ssh.example
+Bundle-RequiredExecutionEnvironment: JavaSE-15
