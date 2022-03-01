@@ -14,11 +14,11 @@ for parameter in args.parameter:
     cmd += parameter + " "
 
 os.system("rm stats.txt")
-for i in range(1):
+for i in range(100):
     os.system("perf stat -o stats.txt --append " + cmd)
 
 bytesMemoryString = ""
-for i in range(1):
+for i in range(100):
     os.system("rm memstatstmp.txt")
     os.system("strace -r -e read,write -o memstatstmp.txt " + cmd)
     bytesMemory = 0
